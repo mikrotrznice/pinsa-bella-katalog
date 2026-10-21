@@ -96,3 +96,4 @@ function filterCatalog(){
 function printCard(id){document.querySelectorAll('.product').forEach(a=>a.classList.toggle('print-target',a.id===id));document.body.classList.add('print-single');window.print();}
 window.addEventListener('afterprint',()=>{document.body.classList.remove('print-single');document.querySelectorAll('.product').forEach(a=>a.classList.remove('print-target'));});
 </script></body></html>
+<!-- GitHub Pages deployment verification: same repository, main branch, revision 2. -->
